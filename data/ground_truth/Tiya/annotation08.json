@@ -1,0 +1,169 @@
+[
+  {
+    "paper_code": "JMIR_23_P_01",
+    "abstract": "The ethics of generative artificial intelligence (AI) use in scientific manuscript content creation has become a serious matter of concern in the scientific publishing community. Generative AI has computationally become capable of elaborating research questions; refining programming code; generating text in scientific language; and generating images, graphics, or figures. However, this technology should be used with caution. In this editorial, we outline the current state of editorial policies on generative AI or chatbot use in authorship, peer review, and editorial processing of scientific and scholarly manuscripts. Additionally, we provide JMIR Publications’ editorial policies on these issues. We further detail JMIR Publications’ approach to the applications of AI in the editorial process for manuscripts in review in a JMIR Publications journal.",
+    "events": [
+      {
+        "Background/Introduction": "Capabilities of generative AI",
+        "Text": "The ethics of generative artificial intelligence (AI) use in scientific manuscript content creation has become a serious matter of concern in the scientific publishing community. Generative AI has computationally become capable of elaborating research questions; refining programming code; generating text in scientific language; and generating images, graphics, or figures. However, this technology should be used with caution.",
+        "Main Action": "has become",
+        "Arguments": {
+          "Agent": "ethics of generative artificial intelligence (AI) use in scientific manuscript content creation",
+          "Object": {
+            "Base Object": "a serious matter of concern",
+            "Base Modifier": "n the scientific publishing community.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "Generative AI has computationally become capable of elaborating research questions; refining programming code; generating text in scientific language; and generating images, graphics, or figures",
+          "Challenge": "However, this technology should be used with caution.",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "Outline of editorial policies and JMIR publications approach",
+        "Text": "In this editorial, we outline the current state of editorial policies on generative AI or chatbot use in authorship, peer review, and editorial processing of scientific and scholarly manuscripts. Additionally, we provide JMIR Publications’ editorial policies on these issues. We further detail JMIR Publications’ approach to the applications of AI in the editorial process for manuscripts in review in a JMIR Publications journal.",
+        "Main Action": "outline",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "the current state of editorial policies",
+            "Base Modifier": "on generative AI or chatbot use in authorship, peer review, and editorial processing of scientific and scholarly manuscripts.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": [
+            "We further detail JMIR Publications’ approach to the applications of AI in the editorial process for manuscripts in review in a JMIR Publications journal.",
+            "Additionally, we provide JMIR Publications’ editorial policies on these issues."
+          ],
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "ACL_23_p_03",
+    "abstract": "While the problem of hallucinations in neural machine translation has long been recognized, so far the progress on its alleviation is very little. Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative. It means that internal characteristics of the model can give much more information than we expect, and before using external models and measures, we first need to ask: how far can we go if we use nothing but the translation model itself? We propose to use a method that evaluates the percentage of the source contribution to a generated translation. Intuitively, hallucinations are translations detached from the source, hence they can be identified by low source contribution. This method improves detection accuracy for the most severe hallucinations by a factor of 2 and is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models. Next, if we move away from internal model characteristics and allow external tools, we show that using sentence similarity from cross-lingual embeddings further improves these results. We release the code of our experiments.",
+    "events": [
+      {
+        "Background/Introduction": "Problem of hallucinations in neural machine translation ",
+        "Text": "While the problem of hallucinations in neural machine translation has long been recognized, so far the progress on its alleviation is very little. Indeed, recently it turned out that without artificially encouraging models to hallucinate, previously existing methods fall short and even the standard sequence log-probability is more informative. It means that internal characteristics of the model can give much more information than we expect, and before using external models and measures, we first need to ask: how far can we go if we use nothing but the translation model itself?",
+        "Main Action": "need to ask",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "While the problem of hallucinations in neural machine translation has long been recognized",
+            "Indeed, recently it turned out that without artificially encouraging models to hallucinate",
+            "before using external models and measures,"
+          ],
+          "Purpose": "",
+          "Method": "",
+          "Results": "previously existing methods fall short and even the standard sequence log-probability is more informative.",
+          "Analysis": [
+            "how far can we go if we use nothing but the translation model itself?",
+            "It means that internal characteristics of the model can give much more information than we expect,"
+          ],
+          "Challenge": "so far the progress on its alleviation is very little.",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Proposal of method that can evaluate percentage of source contribution",
+        "Text": "We propose to use a method that evaluates the percentage of the source contribution to a generated translation. Intuitively, hallucinations are translations detached from the source, hence they can be identified by low source contribution.",
+        "Main Action": "propose",
+        "Arguments": {
+          "Agent": "We",
+          "Object": {
+            "Base Object": "to use a method",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "to a generated translation",
+          "Method": "hence they can be identified by low source contribution.",
+          "Results": "",
+          "Analysis": [
+            "that evaluates the percentage of the source contribution",
+            "Intuitively, hallucinations are translations detached from the source,"
+          ],
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Improval of detection accuracy by using this method",
+        "Text": "This method improves detection accuracy for the most severe hallucinations by a factor of 2 and is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models. Next, if we move away from internal model characteristics and allow external tools, we show that using sentence similarity from cross-lingual embeddings further improves these results.",
+        "Main Action": "improves",
+        "Arguments": {
+          "Agent": "This method",
+          "Object": {
+            "Base Object": "detection accuracy",
+            "Base Modifier": "for the most severe hallucinations",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "Next, if we move away from internal model characteristics and allow external tools,",
+          "Purpose": "",
+          "Method": "",
+          "Results": [
+            "by a factor of 2",
+            "is able to alleviate hallucinations at test time on par with the previous best approach that relies on external models.",
+            "we show that using sentence similarity from cross-lingual embeddings further improves these results."
+          ],
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "Code of experiments is released",
+        "Text": "We release the code of our experiments.",
+        "Main Action": "release",
+        "Arguments": {
+          "Agent": "We",
+          "Object": {
+            "Base Object": "the code",
+            "Base Modifier": "of our experiments.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "paper_code": "BIOINFO_23_P_02",
+    "abstract": "The Metagenomic Intra-Species Diversity Analysis System (MIDAS) is a scalable metagenomic pipeline that identifies single nucleotide variants (SNVs) and gene copy number variants in microbial populations. Here, we present MIDAS2, which addresses the computational challenges presented by increasingly large reference genome databases, while adding functionality for building custom databases and leveraging paired-end reads to improve SNV accuracy. This fast and scalable reengineering of the MIDAS pipeline enables thousands of metagenomic samples to be efficiently genotyped.",
+    "events": [
+      {
+        "Background/Introduction": "Introduction to Metagenomic Intra Species Diversity Analysis System (MIDAS)",
+        "Text": "The Metagenomic Intra-Species Diversity Analysis System (MIDAS) is a scalable metagenomic pipeline that identifies single nucleotide variants (SNVs) and gene copy number variants in microbial populations.",
+        "Main Action": "is a",
+        "Arguments": {
+          "Agent": "Metagenomic Intra-Species Diversity Analysis System (MIDAS)",
+          "Object": {
+            "Base Object": "scalable metagenomic pipeline",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "that identifies single nucleotide variants (SNVs)",
+          "Method": "",
+          "Results": "gene copy number variants in microbial populations",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Method used to improve SNV accuracy by MIDAS2",
+        "Text": "Here, we present MIDAS2, which addresses the computational challenges presented by increasingly large reference genome databases, while adding functionality for building custom databases and leveraging paired-end reads to improve SNV accuracy.",
+        "Main Action": "present",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "MIDAS2",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": [
+            "which addresses the computational challenges",
+            "to improve SNV accuracy."
+          ],
+          "Method": [
+            "presented by increasingly large reference genome databases",
+            "while adding functionality for building custom databases and leveraging paired-end reads"
+          ],
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Result of fast and scalable reengineering of MIDAS pipeline",
+        "Text": "This fast and scalable reengineering of the MIDAS pipeline enables thousands of metagenomic samples to be efficiently genotyped.",
+        "Main Action": "enables",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Base Object": "",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "This fast and scalable reengineering of the MIDAS pipeline",
+          "Purpose": "",
+          "Method": "",
+          "Results": "thousands of metagenomic samples to be efficiently genotyped.",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "JMIR_23_p_06",
+    "abstract": "Telemedicine has a long history; however, its efficacy has been reported with mixed reviews. Studies have reported a wide range of quality implications when using the telemedicine modality of care. This study aimed to analyze the effectiveness of telemedicine through 6 domains of quality through an analysis of randomized controlled trials (RCTs) published in the literature published, to date, in 2022. A total of 4 databases were searched using a standard Boolean string. The 882,420 results were reduced to 33 for analysis through filtering and randomization. The systematic literature review was conducted in accordance with the Kruse Protocol and reported in accordance with PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses; 2020). The Cohen κ statistic was calculated to show agreement between the reviewers (Cohen κ=0.90, strong). Medical outcomes associated with the telemedicine modality were 100% effective with a weighted average effect size of 0.21 (small effect). Many medical outcomes were positive but not statistically better than treatment as usual. RCTs have reported positive outcomes for physical and mental health, medical engagement, behavior change, increased quality of life, increased self-efficacy, increased social support, and reduced costs. All 6 domains of quality were identified in the RCTs and 4 were identified in 100% of the studies. Telemedicine is highly patient-centered because it meets digital preferences, is convenient, avoids stigma, and enables education at one’s own pace. A few barriers exist to its wide adoption, such as staff training and cost, and it may not be the preferred modality for all. The effectiveness of telemedicine is equal to or greater than that of traditional care across a wide spectrum of services studied in this systematic literature review. Providers should feel comfortable offering this modality of care as a standard option to patients where it makes sense to do so. Although barriers exist for wide adoption, the facilitators are all patient facing. PROSPERO CRD42022343478; https://www.crd.york.ac.uk/prospero/display_record.php?RecordID=343478",
+    "events": [
+      {
+        "Background/Introduction": "Analysis of effectiveness through 6 domains of quality",
+        "Text": "Telemedicine has a long history; however, its efficacy has been reported with mixed reviews. Studies have reported a wide range of quality implications when using the telemedicine modality of care. This study aimed to analyze the effectiveness of telemedicine through 6 domains of quality through an analysis of randomized controlled trials (RCTs) published in the literature published, to date, in 2022.",
+        "Main Action": "aimed",
+        "Arguments": {
+          "Agent": "This study",
+          "Object": {
+            "Base Object": "to analyze the effectiveness of telemedicine",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "through 6 domains of quality",
+            "Telemedicine has a long history"
+          ],
+          "Purpose": "",
+          "Method": "through an analysis of randomized controlled trials (RCTs) published in the literature published, to date, in 2022.",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": [
+            "however, its efficacy has been reported with mixed reviews.",
+            "Studies have reported a wide range of quality implications when using the telemedicine modality of care."
+          ],
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Approach to analyze effectiveness of telemedicine through literature review ",
+        "Text": "A total of 4 databases were searched using a standard Boolean string. The 882,420 results were reduced to 33 for analysis through filtering and randomization. The systematic literature review was conducted in accordance with the Kruse Protocol and reported in accordance with PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses; 2020). The Cohen κ statistic was calculated to show agreement between the reviewers (Cohen κ=0.90, strong).",
+        "Main Action": "was conducted",
+        "Arguments": {
+          "Agent": "systematic literature review",
+          "Object": {
+            "Base Object": "in accordance with the Kruse Protocol",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "A total of 4 databases were searched using a standard Boolean string.",
+          "Purpose": "",
+          "Method": [
+            "The Cohen κ statistic was calculated",
+            "through filtering and randomization.",
+            "reported in accordance with PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses; 2020)."
+          ],
+          "Results": [
+            "to show agreement between the reviewers (Cohen κ=0.90, strong).",
+            "The 882,420 results were reduced to 33 for analysis"
+          ],
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Identification of 6 domains of quality ",
+        "Text": "Medical outcomes associated with the telemedicine modality were 100% effective with a weighted average effect size of 0.21 (small effect). Many medical outcomes were positive but not statistically better than treatment as usual. RCTs have reported positive outcomes for physical and mental health, medical engagement, behavior change, increased quality of life, increased self-efficacy, increased social support, and reduced costs. All 6 domains of quality were identified in the RCTs and 4 were identified in 100% of the studies.",
+        "Main Action": "were identified",
+        "Arguments": {
+          "Agent": "All 6 domains of quality",
+          "Object": {
+            "Base Object": "",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": [
+            "in the RCTs and 4 were identified in 100% of the studies.",
+            "Medical outcomes associated with the telemedicine modality were 100% effective with a weighted average effect size of 0.21 (small effect).",
+            "Many medical outcomes were positive but not statistically better than treatment as usual.",
+            "RCTs have reported positive outcomes for physical and mental health, medical engagement, behavior change, increased quality of life, increased self-efficacy, increased social support, and reduced costs."
+          ],
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "",
+        "Text": "Telemedicine is highly patient-centered because it meets digital preferences, is convenient, avoids stigma, and enables education at one’s own pace. A few barriers exist to its wide adoption, such as staff training and cost, and it may not be the preferred modality for all. The effectiveness of telemedicine is equal to or greater than that of traditional care across a wide spectrum of services studied in this systematic literature review. Providers should feel comfortable offering this modality of care as a standard option to patients where it makes sense to do so. Although barriers exist for wide adoption, the facilitators are all patient facing.",
+        "Main Action": "should feel",
+        "Arguments": {
+          "Agent": "Providers",
+          "Object": {
+            "Base Object": "comfortable",
+            "Base Modifier": "offering this modality of care as a standard option to patients",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "where it makes sense to do so.",
+            "Telemedicine is highly patient-centered because it meets digital preferences, is convenient, avoids stigma, and enables education at one’s own pace."
+          ],
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": [
+            "The effectiveness of telemedicine is equal to or greater than that of traditional care across a wide spectrum of services studied in this systematic literature review",
+            "the facilitators are all patient facing."
+          ],
+          "Challenge": [
+            "Although barriers exist for wide adoption,",
+            "A few barriers exist to its wide adoption, such as staff training and cost, and it may not be the preferred modality for all."
+          ],
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

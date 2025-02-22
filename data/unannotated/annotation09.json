@@ -1,0 +1,175 @@
+[
+    {
+        "paper_code": "ACL_23_P_04",
+        "abstract": "Explainable recommendation is a technique that combines prediction and generation tasks to produce more persuasive results. Among these tasks, textual generation demands large amounts of data to achieve satisfactory accuracy. However, historical user reviews of items are often insufficient, making it challenging to ensure the precision of generated explanation text. To address this issue, we propose a novel model, ERRA (Explainable Recommendation by personalized Review retrieval and Aspect learning). With retrieval enhancement, ERRA can obtain additional information from the training sets. With this additional information, we can generate more accurate and informative explanations. Furthermore, to better capture users' preferences, we incorporate an aspect enhancement component into our model. By selecting the top-n aspects that users are most concerned about for different items, we can model user representation with more relevant details, making the explanation more persuasive. To verify the effectiveness of our model, extensive experiments on three datasets show that our model outperforms state-of-the-art baselines (for example, 3.4% improvement in prediction and 15.8% improvement in explanation for TripAdvisor).",
+        "events": [
+          {
+            "Background/Introduction": "",
+            "Text": "Explainable recommendation is a technique that combines prediction and generation tasks to produce more persuasive results. Among these tasks, textual generation demands large amounts of data to achieve satisfactory accuracy. However, historical user reviews of items are often insufficient, making it challenging to ensure the precision of generated explanation text.",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          },
+          {
+            "Methods/Approach": "",
+            "Text": "To address this issue, we propose a novel model, ERRA (Explainable Recommendation by personalized Review retrieval and Aspect learning). With retrieval enhancement, ERRA can obtain additional information from the training sets. With this additional information, we can generate more accurate and informative explanations. Furthermore, to better capture users' preferences, we incorporate an aspect enhancement component into our model. By selecting the top-n aspects that users are most concerned about for different items, we can model user representation with more relevant details, making the explanation more persuasive.",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          },
+          {
+            "Results/Findings": "",
+            "Text": "To verify the effectiveness of our model, extensive experiments on three datasets show that our model outperforms state-of-the-art baselines (for example, 3.4% improvement in prediction and 15.8% improvement in explanation for TripAdvisor).",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          }
+        ]
+      },
+      {
+        "paper_code": "ACM_23_P_04",
+        "abstract": "The virtualization of traditionally in-person experiences has altered the workflows of performing arts communities, resulting in modifications to performance venues and alterations to expressiveness and interaction. 25 professional movement-based performers who have participated in both live and online performances were interviewed in order to determine how virtualization processes affected their practices and how they adapted to these changes. We discovered that performers viewed online performances as time-limited, non-interactive film recordings. Instead of avoiding distant venues, performers adapted to new limitations, inventing improvisation strategies in distracting environments and using time and technological constraints as creative constraints. To investigate how a distanced paradigm affects the live-action workflow of dancers, we staged a performance in which a dancer interacted with a robot in a remote location. The case study demonstrated that the performer modified her rehearsal techniques to work with remote technology and adapted to live interaction with a remote audience by visualizing unseen interactions. This study provides guidance for the design of interactive technology for virtual performances, taking into account the adaptation strategies that performers are currently employing to circumvent limitations of time, location, and absence.",
+        "events": [
+          {
+            "Background/Introduction": "",
+            "Text": "The virtualization of traditionally in-person experiences has altered the workflows of performing arts communities, resulting in modifications to performance venues and alterations to expressiveness and interaction.",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          },
+          {
+            "Methods/Approach": "",
+            "Text": "25 professional movement-based performers who have participated in both live and online performances were interviewed in order to determine how virtualization processes affected their practices and how they adapted to these changes. We discovered that performers viewed online performances as time-limited, non-interactive film recordings. Instead of avoiding distant venues, performers adapted to new limitations, inventing improvisation strategies in distracting environments and using time and technological constraints as creative constraints. To investigate how a distanced paradigm affects the live-action workflow of dancers, we staged a performance in which a dancer interacted with a robot in a remote location.",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          },
+          {
+            "Results/Findings": "",
+            "Text": "The case study demonstrated that the performer modified her rehearsal techniques to work with remote technology and adapted to live interaction with a remote audience by visualizing unseen interactions.",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          },
+          {
+            "Conclusions/Implications": "",
+            "Text": "This study provides guidance for the design of interactive technology for virtual performances, taking into account the adaptation strategies that performers are currently employing to circumvent limitations of time, location, and absence.",
+            "Main Action": "",
+            "Arguments": {
+              "Agent": "",
+              "Object": {
+                "Primary Object": "",
+                "Primary Modifier": "",
+                "Secondary Object": "",
+                "Secondary Modifier": ""
+              },
+              "Context": "",
+              "Purpose": "",
+              "Method": "",
+              "Results": "",
+              "Analysis": "",
+              "Challenge": "",
+              "Ethical": "",
+              "Implications": "",
+              "Contradictions": ""
+            }
+          }
+        ]
+      }
+]

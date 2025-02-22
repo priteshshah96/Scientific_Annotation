@@ -1,0 +1,214 @@
+[
+  {
+    "paper_code": "ACL_23_P_01",
+    "abstract": "User simulators are agents designed to imitate human users; recent advances have found that Task-oriented Dialogue (ToD) systems optimized toward a user simulator could better satisfy the need of human users. However, this might result in a sub-optimal ToD system if it is tailored to only one ad hoc user simulator, since human users can behave differently. In this paper, we propose a framework called MUST to optimize ToD systems via leveraging Multiple User SimulaTors. The main challenges of implementing MUST fall in 1) how to adaptively determine which user simulator to interact with the ToD system at each optimization step, since the ToD system might be over-fitted to some specific user simulators, and simultaneously under-fitted to some others; 2) how to avoid catastrophic forgetting of the adaption for a simulator that is not selected for several consecutive optimization steps. To tackle these challenges, we formulate MUST as a Multi-armed bandits (MAB) problem and provide a method called MUST_adaptive that balances i) the boosting adaption for adaptive interactions between different user simulators and the ToD system and ii) the uniform adaption to avoid the catastrophic forgetting issue. With both automatic evaluations and human evaluations, our experimental results on MultiWOZ show that the dialogue system trained by MUST achieves a better performance than those trained by a single user simulator. It also has a better generalization ability when testing with unseen user simulators.",
+    "events": [
+      {
+        "Background/Introduction": "Function of task oriented dialogue systems",
+        "Text": "User simulators are agents designed to imitate human users; recent advances have found that Task-oriented Dialogue (ToD) systems optimized toward a user simulator could better satisfy the need of human users. However, this might result in a sub-optimal ToD system if it is tailored to only one ad hoc user simulator, since human users can behave differently.",
+        "Main Action": "are",
+        "Arguments": {
+          "Agent": "User simulators",
+          "Object": {
+            "Base Object": "agents",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "optimized toward a user simulator",
+            "if it is tailored to only one ad hoc user simulator,"
+          ],
+          "Purpose": "designed to imitate human users",
+          "Method": "",
+          "Results": "could better satisfy the need of human users",
+          "Analysis": [
+            "recent advances have found that Task-oriented Dialogue (ToD) systems",
+            "since human users can behave differently."
+          ],
+          "Challenge": "However, this might result in a sub-optimal ToD system",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Formulation of MUST and main challenges ",
+        "Text": "In this paper, we propose a framework called MUST to optimize ToD systems via leveraging Multiple User SimulaTors. The main challenges of implementing MUST fall in 1) how to adaptively determine which user simulator to interact with the ToD system at each optimization step, since the ToD system might be over-fitted to some specific user simulators, and simultaneously under-fitted to some others; 2) how to avoid catastrophic forgetting of the adaption for a simulator that is not selected for several consecutive optimization steps. To tackle these challenges, we formulate MUST as a Multi-armed bandits (MAB) problem and provide a method called MUST_adaptive that balances i) the boosting adaption for adaptive interactions between different user simulators and the ToD system and ii) the uniform adaption to avoid the catastrophic forgetting issue.",
+        "Main Action": "propose",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "a framework",
+            "Base Modifier": "called MUST",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "since the ToD system might be over-fitted to some specific user simulators,",
+            "simultaneously under-fitted to some others;",
+            "that is not selected for several consecutive optimization steps"
+          ],
+          "Purpose": [
+            "to optimize ToD systems",
+            "To tackle these challenges,",
+            "to avoid the catastrophic forgetting issue."
+          ],
+          "Method": [
+            "via leveraging Multiple User SimulaTors",
+            "we formulate MUST as a Multi-armed bandits (MAB) problem",
+            "provide a method called MUST_adaptive that balances",
+            "the boosting adaption for adaptive interactions between different user simulators and the ToD system",
+            "the uniform adaption"
+          ],
+          "Results": "",
+          "Analysis": "",
+          "Challenge": [
+            "how to adaptively determine which user simulator to interact with the ToD system at each optimization step,",
+            "how to avoid catastrophic forgetting of the adaption for a simulator"
+          ],
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Experimental results on MultiWOZ",
+        "Text": "With both automatic evaluations and human evaluations, our experimental results on MultiWOZ show that the dialogue system trained by MUST achieves a better performance than those trained by a single user simulator. It also has a better generalization ability when testing with unseen user simulators.",
+        "Main Action": "show",
+        "Arguments": {
+          "Agent": "experimental results on MultiWOZ",
+          "Object": {
+            "Base Object": "that the dialogue system trained by MUST",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "With both automatic evaluations and human evaluations,",
+          "Purpose": "",
+          "Method": "",
+          "Results": "achieves a better performance than those trained by a single user simulator.",
+          "Analysis": "It also has a better generalization ability when testing with unseen user simulators.",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "ACM_23_P_01",
+    "abstract": "The similarity effect refers to the tendency for people to be more easily influenced by others who resemble them in appearance. This phenomenon has been found to have positive impacts, including on the building of trust, that enrich the quality of communication (e.g., fluency or collaboration performance). While research has shown that the similarity effect occurs in screen-based communication platforms, it remains unclear how this phenomenon impacts user perceptions, especially of others' persuasiveness, in immersive environments such as virtual reality (VR). In this study, we adopted a mixed-methods approach to exploring how interaction with avatars of similar appearance to one's own self-representation influences conversations. Such similarity was operationalized as having three levels: identicality, moderate similarity, and dissimilarity. The study found that avatars of moderate similarity have the greatest persuasiveness; however, in both identicality and moderate similarity conditions, participants felt it was easier to communicate with and lower eeriness rating to avatars than in the dissimilarity condition. Multiple linear regression further revealed that users who had relatively low self-esteem and/or were relatively conscientious were more susceptible to the positive effect of appearance similarity on persuasiveness. We conclude that the similarity effect, especially when the similarity in question is moderate, could be leveraged to support persuasiveness in VR-based communication.",
+    "events": [
+      {
+        "Background/Introduction": "Research on similarity effect phenomenon",
+        "Text": "The similarity effect refers to the tendency for people to be more easily influenced by others who resemble them in appearance. This phenomenon has been found to have positive impacts, including on the building of trust, that enrich the quality of communication (e.g., fluency or collaboration performance). While research has shown that the similarity effect occurs in screen-based communication platforms, it remains unclear how this phenomenon impacts user perceptions, especially of others' persuasiveness, in immersive environments such as virtual reality (VR).",
+        "Main Action": "refers",
+        "Arguments": {
+          "Agent": "The similarity effect",
+          "Object": {
+            "Base Object": "to the tendency",
+            "Base Modifier": "for people to be more easily influenced",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "by others who resemble them in appearance",
+            "While research has shown that the similarity effect occurs in screen-based communication platforms,",
+            "especially of others' persuasiveness, in immersive environments such as virtual reality (VR)."
+          ],
+          "Purpose": "",
+          "Method": "",
+          "Results": "that enrich the quality of communication (e.g., fluency or collaboration performance).",
+          "Analysis": [
+            "This phenomenon has been found to have positive impacts,",
+            "including on the building of trust,"
+          ],
+          "Challenge": "it remains unclear how this phenomenon impacts user perceptions,",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Influence of avatars of similar appearance on conversations",
+        "Text": "In this study, we adopted a mixed-methods approach to exploring how interaction with avatars of similar appearance to one's own self-representation influences conversations. Such similarity was operationalized as having three levels: identicality, moderate similarity, and dissimilarity.",
+        "Main Action": "adopted",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "a mixed-methods approach",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "to exploring how interaction with avatars of similar appearance to one's own self-representation influences conversations.",
+          "Method": "",
+          "Results": "",
+          "Analysis": "Such similarity was operationalized as having three levels: identicality, moderate similarity, and dissimilarity",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Result of multiple linear regression, identicality and moderate similarity conditions",
+        "Text": "The study found that avatars of moderate similarity have the greatest persuasiveness; however, in both identicality and moderate similarity conditions, participants felt it was easier to communicate with and lower eeriness rating to avatars than in the dissimilarity condition. Multiple linear regression further revealed that users who had relatively low self-esteem and/or were relatively conscientious were more susceptible to the positive effect of appearance similarity on persuasiveness.",
+        "Main Action": "found",
+        "Arguments": {
+          "Agent": "The study",
+          "Object": {
+            "Base Object": "that avatars",
+            "Base Modifier": "of moderate similarity",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "in both identicality and moderate similarity conditions,",
+            "than in the dissimilarity condition.",
+            "who had relatively low self-esteem",
+            "were relatively conscientious"
+          ],
+          "Purpose": "",
+          "Method": "Multiple linear regression",
+          "Results": [
+            "have the greatest persuasiveness;",
+            "further revealed that users",
+            "were more susceptible to the positive effect of appearance similarity on persuasiveness."
+          ],
+          "Analysis": "participants felt it was easier to communicate with and lower eeriness rating to avatars",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "Use case of similarity effect for VR based communication",
+        "Text": "We conclude that the similarity effect, especially when the similarity in question is moderate, could be leveraged to support persuasiveness in VR-based communication.",
+        "Main Action": "conclude",
+        "Arguments": {
+          "Agent": "We",
+          "Object": {
+            "Base Object": "that the similarity effect",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "especially when the similarity in question is moderate,",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "could be leveraged to support persuasiveness in VR-based communication.",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

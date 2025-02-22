@@ -1,0 +1,209 @@
+[
+  {
+    "paper_code": "DH_23_P_01",
+    "abstract": "This paper examined seventy-one “Hyakki Yagyō Emaki” (“Night Parade of One Hundred Demons” Picture Scroll; Demons Scroll) and estimated the artistic editing process using a digital humanities approach. The edit distance was used to illustrate the lineage trees of Demons Scrolls, focusing on the arrangement of the demons in the procession. The author concluded that a type of scroll depicted the demon arrangement closest to the prototype of the renowned Shinjuan lineage scrolls. By numbering the demons in the procession, the author contributed quantitative evidence to the ongoing iconographical interpretation debate. The paper ends with a discussion of new questions regarding Demons Scrolls that have arisen as a result of this research. By applying similar methods to other materials, the scope of digital humanities can be expanded.",
+    "events": [
+      {
+        "Background/Introduction": "seventy one Hyakii yagyo emaki",
+        "Text": "This paper examined seventy-one 'Hyakki Yagyō Emaki' ('Night Parade of One Hundred Demons' Picture Scroll; Demons Scroll) and estimated the artistic editing process using a digital humanities approach.",
+        "Main Action": "examined",
+        "Arguments": {
+          "Agent": "This paper",
+          "Object": {
+            "Base Object": "seventy-one 'Hyakki Yagyō Emaki' ('Night Parade of One Hundred Demons' Picture Scroll; Demons Scroll)",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "estimated the artistic editing process",
+          "Method": "using a digital humanities approach.",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "edit distance",
+        "Text": "The edit distance was used to illustrate the lineage trees of Demons Scrolls, focusing on the arrangement of the demons in the procession.",
+        "Main Action": "was used",
+        "Arguments": {
+          "Agent": "The edit distance",
+          "Object": {
+            "Base Object": "the lineage trees of Demons Scrolls,",
+            "Base Modifier": "focusing on the arrangement of the demons in the procession.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "qualitative evidence",
+        "Text": "The author concluded that a type of scroll depicted the demon arrangement closest to the prototype of the renowned Shinjuan lineage scrolls. By numbering the demons in the procession, the author contributed quantitative evidence to the ongoing iconographical interpretation debate.",
+        "Main Action": "concluded",
+        "Arguments": {
+          "Agent": "The author",
+          "Object": {
+            "Base Object": "type of scroll depicted the demon arrangement closest to the prototype of the renowned Shinjuan lineage scrolls",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "By numbering the demons in the procession",
+          "Results": "contributed quantitative evidence to the ongoing iconographical interpretation debate",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "discussion regarding demons scrolls",
+        "Text": "The paper ends with a discussion of new questions regarding Demons Scrolls that have arisen as a result of this research. By applying similar methods to other materials, the scope of digital humanities can be expanded.",
+        "Main Action": "ends with",
+        "Arguments": {
+          "Agent": "The paper",
+          "Object": {
+            "Base Object": "discussion",
+            "Base Modifier": "of new questions regarding Demons Scrolls that have arisen as a result of this research.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "By applying similar methods to other materials, the scope of digital humanities can be expanded",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "JMIR_23_p_04",
+    "abstract": "The novel concept of immersive 3D augmented reality (AR) surgical navigation has recently been introduced in the medical field. This method allows surgeons to directly focus on the surgical objective without having to look at a separate monitor. In the dental field, the recently developed AR-assisted dental implant navigation system (AR navigation), which uses innovative image technology to directly visualize and track a presurgical plan over an actual surgical site, has attracted great interest. This study is the first systematic review and meta-analysis study that aimed to assess the accuracy of dental implants placed by AR navigation and compare it with that of the widely used implant placement methods, including the freehand method (FH), template-based static guidance (TG), and conventional navigation (CN). Individual search strategies were used in PubMed (MEDLINE), Scopus, ScienceDirect, Cochrane Library, and Google Scholar to search for articles published until March 21, 2022. This study was performed in accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines and registered in the International Prospective Register of Systematic Reviews (PROSPERO) database. Peer-reviewed journal articles evaluating the positional deviations of dental implants placed using AR-assisted implant navigation systems were included. Cohendstatistical power analysis was used to investigate the effect size estimate and CIs of standardized mean differences (SMDs) between data sets. Among the 425 articles retrieved, 15 articles were considered eligible for narrative review, 8 articles were considered for single-arm meta-analysis, and 4 were included in a 2-arm meta-analysis. The mean lateral, global, depth, and angular deviations of the dental implant placed using AR navigation were 0.90 (95% CI 0.78-1.02) mm, 1.18 (95% CI 0.95-1.41) mm, 0.78 (95% CI 0.48-1.08) mm, and 3.96° (95% CI 3.45°-4.48°), respectively. The accuracy of AR navigation was significantly higher than that of the FH method (SMD=−1.01; 95% CI −1.47 to −0.55;P<.001) and CN method (SMD=−0.46; 95% CI −0.64 to −0.29;P<.001). However, the accuracies of the AR navigation and TG methods were similar (SMD=0.06; 95% CI −0.62 to 0.74;P=.73). The positional deviations of AR-navigated implant placements were within the safety zone, suggesting clinically acceptable accuracy of the AR navigation method. Moreover, the accuracy of AR implant navigation was comparable with that of the highly recommended dental implant–guided surgery method, TG, and superior to that of the conventional FH and CN methods. This review highlights the possibility of using AR navigation as an effective and accurate immersive surgical guide for dental implant placement.",
+    "events": [
+      {
+        "Background/Introduction": "Novel concept of 3d AR",
+        "Text": "The novel concept of immersive 3D augmented reality (AR) surgical navigation has recently been introduced in the medical field. This method allows surgeons to directly focus on the surgical objective without having to look at a separate monitor. In the dental field, the recently developed AR-assisted dental implant navigation system (AR navigation), which uses innovative image technology to directly visualize and track a presurgical plan over an actual surgical site, has attracted great interest.",
+        "Main Action": "has recently been introduced",
+        "Arguments": {
+          "Agent": "The novel concept of immersive 3D augmented reality (AR) surgical navigation",
+          "Object": {
+            "Base Object": "in the medical field.",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "In the dental field, the recently developed AR-assisted dental implant navigation system (AR navigation), which uses innovative image technology to directly visualize and track a presurgical plan over an actual surgical site, has attracted great interest.",
+          "Purpose": "",
+          "Method": "This method allows surgeons to directly focus on the surgical objective without having to look at a separate monitor.",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "dental implants placed by AR",
+        "Text": "This study is the first systematic review and meta-analysis study that aimed to assess the accuracy of dental implants placed by AR navigation and compare it with that of the widely used implant placement methods, including the freehand method (FH), template-based static guidance (TG), and conventional navigation (CN). Individual search strategies were used in PubMed (MEDLINE), Scopus, ScienceDirect, Cochrane Library, and Google Scholar to search for articles published until March 21, 2022. This study was performed in accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines and registered in the International Prospective Register of Systematic Reviews (PROSPERO) database. Peer-reviewed journal articles evaluating the positional deviations of dental implants placed using AR-assisted implant navigation systems were included. Cohendstatistical power analysis was used to investigate the effect size estimate and CIs of standardized mean differences (SMDs) between data sets.",
+        "Main Action": "aimed",
+        "Arguments": {
+          "Agent": "This study",
+          "Object": {
+            "Base Object": "the accuracy of dental implants placed by AR navigation",
+            "Base Modifier": "compare it with that of the widely used implant placement methods, including the freehand method (FH), template-based static guidance (TG), and conventional navigation (CN)",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "This study was performed in accordance with the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines and registered in the International Prospective Register of Systematic Reviews (PROSPERO) database",
+          "Purpose": "",
+          "Method": [
+            "Individual search strategies were used in PubMed (MEDLINE), Scopus, ScienceDirect, Cochrane Library, and Google Scholar",
+            "Cohendstatistical power analysis was used to investigate the effect size estimate and CIs of standardized mean differences (SMDs) between data sets.",
+            "Peer-reviewed journal articles evaluating the positional deviations of dental implants placed using AR-assisted implant navigation systems were included"
+          ],
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "AR navigated implant placements",
+        "Text": "Among the 425 articles retrieved, 15 articles were considered eligible for narrative review, 8 articles were considered for single-arm meta-analysis, and 4 were included in a 2-arm meta-analysis. The mean lateral, global, depth, and angular deviations of the dental implant placed using AR navigation were 0.90 (95% CI 0.78-1.02) mm, 1.18 (95% CI 0.95-1.41) mm, 0.78 (95% CI 0.48-1.08) mm, and 3.96° (95% CI 3.45°-4.48°), respectively. The accuracy of AR navigation was significantly higher than that of the FH method (SMD=−1.01; 95% CI −1.47 to −0.55; P<.001) and CN method (SMD=−0.46; 95% CI −0.64 to −0.29; P<.001). However, the accuracies of the AR navigation and TG methods were similar (SMD=0.06; 95% CI −0.62 to 0.74; P=.73). The positional deviations of AR-navigated implant placements were within the safety zone, suggesting clinically acceptable accuracy of the AR navigation method.",
+        "Main Action": "were considered",
+        "Arguments": {
+          "Agent": "15 articles",
+          "Object": {
+            "Base Object": "eligible for narrative review,",
+            "Base Modifier": "were considered for single-arm meta-analysis",
+            "Attached Object": [
+              "8 articles",
+              "4"
+            ],
+            "Attached Modifier": "were included in a 2-arm meta-analysis"
+          },
+          "Context": "Among the 425 articles retrieved,",
+          "Purpose": "",
+          "Method": "",
+          "Results": [
+            "The mean lateral, global, depth, and angular deviations of the dental implant placed using AR navigation were 0.90 (95% CI 0.78-1.02) mm, 1.18 (95% CI 0.95-1.41) mm, 0.78 (95% CI 0.48-1.08) mm, and 3.96° (95% CI 3.45°-4.48°), respectively.",
+            "The accuracy of AR navigation was significantly higher than that of the FH method (SMD=−1.01; 95% CI −1.47 to −0.55; P<.001) and CN method (SMD=−0.46; 95% CI −0.64 to −0.29; P<.001).",
+            "The positional deviations of AR-navigated implant placements were within the safety zone, suggesting clinically acceptable accuracy of the AR navigation method"
+          ],
+          "Analysis": "the accuracies of the AR navigation and TG methods were similar (SMD=0.06; 95% CI −0.62 to 0.74; P=.73).",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "Ar imolant navigation is superior the convnetional methods",
+        "Text": "Moreover, the accuracy of AR implant navigation was comparable with that of the highly recommended dental implant–guided surgery method, TG, and superior to that of the conventional FH and CN methods. This review highlights the possibility of using AR navigation as an effective and accurate immersive surgical guide for dental implant placement.",
+        "Main Action": "highlights",
+        "Arguments": {
+          "Agent": "This review",
+          "Object": {
+            "Base Object": "the possibility of using AR navigation as an effective and accurate immersive surgical guide for dental implant placement.",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "the accuracy of AR implant navigation was comparable with that of the highly recommended dental implant–guided surgery method, TG, and superior to that of the conventional FH and CN methods.",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

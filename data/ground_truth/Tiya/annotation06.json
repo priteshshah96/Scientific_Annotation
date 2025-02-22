@@ -1,0 +1,166 @@
+[
+  {
+    "paper_code": "BIOINFO_23_P_01",
+    "abstract": "Highly contiguous de novo phased diploid genome assemblies are now feasible for large numbers of species and individuals. Methods are needed to validate assembly accuracy and detect misassemblies with orthologous sequencing data to allow for confident downstream analyses. We developed GAVISUNK, an open-source pipeline that detects misassemblies and produces a set of reliable regions genome-wide by assessing concordance of distances between unique k-mers in Pacific Biosciences high-fidelity assemblies and raw Oxford Nanopore Technologies reads.",
+    "events": [
+      {
+        "Background/Introduction": "Feasibility of highly contiguous de novo phased diploid genome assemblies",
+        "Text": "Highly contiguous de novo phased diploid genome assemblies are now feasible for large numbers of species and individuals. Methods are needed to validate assembly accuracy and detect misassemblies with orthologous sequencing data to allow for confident downstream analyses.",
+        "Main Action": "are now feasible",
+        "Arguments": {
+          "Agent": "Highly contiguous de novo phased diploid genome assemblies",
+          "Object": {
+            "Base Object": "for large numbers of species and individuals",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "Methods are needed to validate assembly accuracy and detect misassemblies with orthologous sequencing data",
+          "Results": "to allow for confident downstream analyses.",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Development of GAVISUNK and how it works",
+        "Text": "We developed GAVISUNK, an open-source pipeline that detects misassemblies and produces a set of reliable regions genome-wide by assessing concordance of distances between unique k-mers in Pacific Biosciences high-fidelity assemblies and raw Oxford Nanopore Technologies reads.",
+        "Main Action": "developed",
+        "Arguments": {
+          "Agent": "We",
+          "Object": {
+            "Base Object": "GAVISUNK",
+            "Base Modifier": "an open-source pipeline",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "that detects misassemblies and produces a set of reliable regions genome-wide",
+          "Method": "by assessing concordance of distances between unique k-mers in Pacific Biosciences high-fidelity assemblies and raw Oxford Nanopore Technologies reads.",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "JMIR_23_p_05",
+    "abstract": "The economic costs of mental disorders for society are huge. Internet-based interventions are often coined as cost-effective alternatives to usual care, but the evidence is mixed. The aim was to review the literature on the cost-effectiveness of internet interventions for mental disorders compared with usual care and to provide an estimate of the monetary benefits of such interventions compared with usual care. A systematic review and meta-analysis of randomized controlled trials was conducted, which included participants with symptoms of mental disorders; investigated a telephone- or internet-based intervention; included a control condition in the form of treatment as usual, psychological placebo, waiting list control, or bibliotherapy; reported outcomes on both quality of life and costs; and included articles published in English. Electronic databases such as PubMed (including MEDLINE), Embase, Emcare, PsycINFO, Web of Science, and the Cochrane Library were used. Data on risk of bias, quality of the economic evaluation, quality-adjusted life years, and costs were extracted from the included studies, and the incremental net benefit was calculated and pooled. The search yielded 6226 abstracts, and 37 studies with 14,946 participants were included. The quality of economic evaluations of the included studies was rated as moderate, and the risk of bias was high. A random-effects approach was maintained. Analyses suggested internet interventions were slightly more effective than usual care in terms of quality-adjusted life years gain (Hedgesg=0.052, 95% CI 0.010-0.094;P=.02) and equally expensive (Hedgesg=0.002, 95% CI −0.080 to 0.84;P=.96). The pooled incremental net benefit was US $255 (95% CI US $91 to US $419;P=.002), favoring internet interventions over usual care. The perspective of the economic evaluation and targeted mental disorder moderated the results. The findings indicate that the cost-effectiveness of internet interventions for mental disorders compared with a care-as-usual approach is likely, but generalizability to new studies is poor given the substantial heterogeneity. This is the first study in the field of mental health to pool cost-effectiveness outcomes in an aggregate data meta-analysis. PROSPERO CRD42019141659; https://tinyurl.com/3cu99b34",
+    "events": [
+      {
+        "Background/Introduction": "Literature on cost effectiveness of internet interventions for mental disorders",
+        "Text": "The economic costs of mental disorders for society are huge. Internet-based interventions are often coined as cost-effective alternatives to usual care, but the evidence is mixed. The aim was to review the literature on the cost-effectiveness of internet interventions for mental disorders compared with usual care and to provide an estimate of the monetary benefits of such interventions compared with usual care.",
+        "Main Action": "was to review",
+        "Arguments": {
+          "Agent": "",
+          "Object": {
+            "Base Object": "",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "The economic costs of mental disorders for society are huge.",
+            "Internet-based interventions are often coined as cost-effective alternatives to usual care, but the evidence is mixed."
+          ],
+          "Purpose": "the literature on the cost-effectiveness of internet interventions for mental disorders compared with usual care and to provide an estimate of the monetary benefits of such interventions compared with usual care.",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Method of conducting systematic review and meta analysis ",
+        "Text": "A systematic review and meta-analysis of randomized controlled trials was conducted, which included participants with symptoms of mental disorders; investigated a telephone- or internet-based intervention; included a control condition in the form of treatment as usual, psychological placebo, waiting list control, or bibliotherapy; reported outcomes on both quality of life and costs; and included articles published in English. Electronic databases such as PubMed (including MEDLINE), Embase, Emcare, PsycINFO, Web of Science, and the Cochrane Library were used. Data on risk of bias, quality of the economic evaluation, quality-adjusted life years, and costs were extracted from the included studies, and the incremental net benefit was calculated and pooled.",
+        "Main Action": "was conducted",
+        "Arguments": {
+          "Agent": "systematic review and meta-analysis of randomized controlled trials",
+          "Object": {
+            "Base Object": "which included participants",
+            "Base Modifier": "with symptoms of mental disorders",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": [
+            "included a control condition in the form of treatment as usual, psychological placebo, waiting list control, or bibliotherapy;",
+            "Data on risk of bias, quality of the economic evaluation, quality-adjusted life years, and costs were extracted from the included studies,",
+            "the incremental net benefit was calculated and pooled.",
+            "and included articles published in English. Electronic databases such as PubMed (including MEDLINE), Embase, Emcare, PsycINFO, Web of Science, and the Cochrane Library were used.",
+            "reported outcomes on both quality of life and costs;"
+          ],
+          "Results": "",
+          "Analysis": "investigated a telephone- or internet-based intervention;",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Analysis of suggested internet interventions",
+        "Text": "The search yielded 6226 abstracts, and 37 studies with 14,946 participants were included. The quality of economic evaluations of the included studies was rated as moderate, and the risk of bias was high. A random-effects approach was maintained. Analyses suggested internet interventions were slightly more effective than usual care in terms of quality-adjusted life years gain (Hedgesg=0.052, 95% CI 0.010-0.094;P=.02) and equally expensive (Hedgesg=0.002, 95% CI −0.080 to 0.84;P=.96). The pooled incremental net benefit was US $255 (95% CI US $91 to US $419;P=.002), favoring internet interventions over usual care. The perspective of the economic evaluation and targeted mental disorder moderated the results.",
+        "Main Action": "yielded",
+        "Arguments": {
+          "Agent": "The search",
+          "Object": {
+            "Base Object": "6226 abstracts, and 37 studies",
+            "Base Modifier": "14,946 participants were included.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "A random-effects approach was maintained.",
+          "Results": "The pooled incremental net benefit was US $255 (95% CI US $91 to US $419;P=.002)",
+          "Analysis": [
+            "The quality of economic evaluations of the included studies was rated as moderate, and the risk of bias was high.",
+            "Analyses suggested internet interventions were slightly more effective than usual care in terms of quality-adjusted life years gain (Hedgesg=0.052, 95% CI 0.010-0.094;P=.02) and equally expensive (Hedgesg=0.002, 95% CI −0.080 to 0.84;P=.96).",
+            "favoring internet interventions over usual care.",
+            "The perspective of the economic evaluation and targeted mental disorder moderated the results."
+          ],
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "Findings related to cost effectiveness of internet interventions",
+        "Text": "The findings indicate that the cost-effectiveness of internet interventions for mental disorders compared with a care-as-usual approach is likely, but generalizability to new studies is poor given the substantial heterogeneity. This is the first study in the field of mental health to pool cost-effectiveness outcomes in an aggregate data meta-analysis.",
+        "Main Action": "indicate that",
+        "Arguments": {
+          "Agent": "The findings",
+          "Object": {
+            "Base Object": "",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "This is the first study in the field of mental health to pool cost-effectiveness outcomes in an aggregate data meta-analysis",
+          "Results": "",
+          "Analysis": "he cost-effectiveness of internet interventions for mental disorders compared with a care-as-usual approach is likely, but generalizability to new studies is poor given the substantial heterogeneity.",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

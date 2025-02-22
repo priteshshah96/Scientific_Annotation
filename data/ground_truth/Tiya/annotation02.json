@@ -1,0 +1,165 @@
+[
+  {
+    "paper_code": "ACL_23_P_02",
+    "abstract": "One of the main challenges open-domain end-to-end dialogue systems, or chatbots, face is the prevalence of unsafe behavior, such as toxic languages and harmful suggestions. However, existing dialogue datasets do not provide enough annotation to explain and correct such unsafe behavior. In this work, we construct a new dataset called SafeConv for the research of conversational safety: (1) Besides the utterance-level safety labels, SafeConv also provides unsafe spans in an utterance, information able to indicate which words contribute to the detected unsafe behavior; (2) SafeConv provides safe alternative responses to continue the conversation when unsafe behavior detected, guiding the conversation to a gentle trajectory. By virtue of the comprehensive annotation of SafeConv, we benchmark three powerful models for the mitigation of conversational unsafe behavior, including a checker to detect unsafe utterances, a tagger to extract unsafe spans, and a rewriter to convert an unsafe response to a safe version. Moreover, we explore the huge benefits brought by combining the models for explaining the emergence of unsafe behavior and detoxifying chatbots. Experiments show that the detected unsafe behavior could be well explained with unsafe spans and popular chatbots could be detoxified by a huge extent.",
+    "events": [
+      {
+        "Background/Introduction": "One of the main challenge of open domain end to end dialogue systems",
+        "Text": "One of the main challenges open-domain end-to-end dialogue systems, or chatbots, face is the prevalence of unsafe behavior, such as toxic languages and harmful suggestions. However, existing dialogue datasets do not provide enough annotation to explain and correct such unsafe behavior.",
+        "Main Action": "face is the",
+        "Arguments": {
+          "Agent": "main challenges open-domain end-to-end dialogue systems, or chatbots",
+          "Object": {
+            "Base Object": "revalence of unsafe behavio",
+            "Base Modifier": "such as toxic languages and harmful suggestions.",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "existing dialogue datasets do not provide enough annotation to explain and correct such unsafe behavior.",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Construction of a new dataset - SafeConv",
+        "Text": "In this work, we construct a new dataset called SafeConv for the research of conversational safety: (1) Besides the utterance-level safety labels, SafeConv also provides unsafe spans in an utterance, information able to indicate which words contribute to the detected unsafe behavior; (2) SafeConv provides safe alternative responses to continue the conversation when unsafe behavior detected, guiding the conversation to a gentle trajectory. By virtue of the comprehensive annotation of SafeConv, we benchmark three powerful models for the mitigation of conversational unsafe behavior, including a checker to detect unsafe utterances, a tagger to extract unsafe spans, and a rewriter to convert an unsafe response to a safe version.",
+        "Main Action": "construct",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "a new dataset",
+            "Base Modifier": "called SafeConv",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": [
+            "for the research of conversational safety:",
+            "for the mitigation of conversational unsafe behavior, including a checker to detect unsafe utterances, a tagger to extract unsafe spans, and a rewriter to convert an unsafe response to a safe version."
+          ],
+          "Method": "By virtue of the comprehensive annotation of SafeConv, we benchmark three powerful models",
+          "Results": [
+            "(1) Besides the utterance-level safety labels, SafeConv also provides unsafe spans in an utterance, information able to indicate which words contribute to the detected unsafe behavior;",
+            "(2) SafeConv provides safe alternative responses to continue the conversation when unsafe behavior detected, guiding the conversation to a gentle trajectory."
+          ],
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Exploration of benefits by combining models",
+        "Text": "Moreover, we explore the huge benefits brought by combining the models for explaining the emergence of unsafe behavior and detoxifying chatbots. Experiments show that the detected unsafe behavior could be well explained with unsafe spans and popular chatbots could be detoxified by a huge extent.",
+        "Main Action": "explore",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "the huge benefits",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "brought by combining the models for explaining the emergence of unsafe behavior and detoxifying chatbots.",
+          "Results": "",
+          "Analysis": "Experiments show that the detected unsafe behavior could be well explained with unsafe spans and popular chatbots could be detoxified by a huge extent",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "ACM_23_P_02",
+    "abstract": "Workplace bias creates negative psychological outcomes for employees, permeating the larger organization. Workplace meetings are frequent, making them a key context where bias may occur. Video conferencing (VC) is an increasingly common medium for workplace meetings; we therefore investigated how VC tools contribute to increasing or reducing bias in meetings. Through a semi-structured interview study with 22 professionals, we found that VC features push meeting leaders to exercise control over various meeting parameters, giving leaders an outsized role in affecting bias. We demonstrate this with respect to four core VC features---user tiles, raise hand, text-based chat, and meeting recording---and recommend employing at least one of two mechanisms for mitigating bias in VC meetings---1) transferring control from meeting leaders to technical systems or other attendees and 2) helping meeting leaders better exercise the control they do wield.",
+    "events": [
+      {
+        "Background/Introduction": "VC tools contribution to reducing/ increasing bias",
+        "Text": "Workplace bias creates negative psychological outcomes for employees, permeating the larger organization. Workplace meetings are frequent, making them a key context where bias may occur. Video conferencing (VC) is an increasingly common medium for workplace meetings; we therefore investigated how VC tools contribute to increasing or reducing bias in meetings.",
+        "Main Action": "creates",
+        "Arguments": {
+          "Agent": "Workplace bias",
+          "Object": {
+            "Base Object": "negative psychological outcomes",
+            "Base Modifier": "for employees",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "Workplace meetings are frequent, making them a key context where bias may occur.",
+            "Video conferencing (VC) is an increasingly common medium for workplace meetings;"
+          ],
+          "Purpose": "",
+          "Method": "",
+          "Results": "permeating the larger organization.",
+          "Analysis": "we therefore investigated how VC tools contribute to increasing or reducing bias in meetings.",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Result of semi structured interview study",
+        "Text": "Through a semi-structured interview study with 22 professionals, we found that VC features push meeting leaders to exercise control over various meeting parameters, giving leaders an outsized role in affecting bias.",
+        "Main Action": "found that",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "VC features",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "Through a semi-structured interview study with 22 professionals,",
+          "Purpose": "",
+          "Method": "",
+          "Results": "push meeting leaders to exercise control over various meeting parameters, giving leaders an outsized role in affecting bias.",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Recommendations for mitigating bias in VC meetings",
+        "Text": "We demonstrate this with respect to four core VC features---user tiles, raise hand, text-based chat, and meeting recording---and recommend employing at least one of two mechanisms for mitigating bias in VC meetings---1) transferring control from meeting leaders to technical systems or other attendees and 2) helping meeting leaders better exercise the control they do wield.",
+        "Main Action": "demonstrate",
+        "Arguments": {
+          "Agent": "We",
+          "Object": {
+            "Base Object": "this",
+            "Base Modifier": "with respect to four core VC features",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "user tiles, raise hand, text-based chat, and meeting recording",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": [
+            "and recommend employing at least one of two mechanisms for mitigating bias in VC meetings",
+            "--1) transferring control from meeting leaders to technical systems or other attendees",
+            "helping meeting leaders better exercise the control they do wield."
+          ],
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

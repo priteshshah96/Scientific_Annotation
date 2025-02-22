@@ -1,0 +1,204 @@
+[
+  {
+    "paper_code": "DH_23_P_03",
+    "abstract": "This study examines the potential of using Augmented Reality to increase urban participation to deal with identified problems in Maputo city, Mozambique, southern Africa. The study’s aim is twofold; first, it seeks to add to the nascent literature on Augmented Reality (AR) in Africa; second, to experiment with AR for public participation in urban Maputo to explore the affordances of AR and examine the possibility and limitations of deploying the technology for such purposes. The study concludes that AR can enhance public participation and engagement with public spaces in Maputo city. However, technical and economic limitations must be considered when designing projects to deploy AR technologies in the city.",
+    "events": [
+      {
+        "Background/Introduction": "Examination of potential of using AR for urban participation",
+        "Text": "This study examines the potential of using Augmented Reality to increase urban participation to deal with identified problems in Maputo city, Mozambique, southern Africa.",
+        "Main Action": "examines",
+        "Arguments": {
+          "Agent": "This study",
+          "Object": {
+            "Base Object": "the potential",
+            "Base Modifier": "of using Augmented Reality",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": [
+            "to increase urban participation",
+            "to deal with identified problems in Maputo city, Mozambique, southern Africa."
+          ],
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "",
+        "Text": "The study’s aim is twofold; first, it seeks to add to the nascent literature on Augmented Reality (AR) in Africa; second, to experiment with AR for public participation in urban Maputo to explore the affordances of AR and examine the possibility and limitations of deploying the technology for such purposes.",
+        "Main Action": "aim",
+        "Arguments": {
+          "Agent": "study’s",
+          "Object": {
+            "Base Object": "is twofold",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": [
+            "first, it seeks to add to the nascent literature on Augmented Reality (AR) in Africa;",
+            "to experiment with AR for public participation in urban Maputo",
+            "to explore the affordances of AR",
+            "examine the possibility and limitations of deploying the technology for such purposes."
+          ],
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "AR's effect on public participation and engagement",
+        "Text": "The study concludes that AR can enhance public participation and engagement with public spaces in Maputo city.",
+        "Main Action": "concludes",
+        "Arguments": {
+          "Agent": "The study",
+          "Object": {
+            "Base Object": "that AR",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "can enhance public participation and engagement with public spaces in Maputo city.",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Conclusions/Implications": "Considerations when designing projects to deploy AR technologies in the city",
+        "Text": "However, technical and economic limitations must be considered when designing projects to deploy AR technologies in the city.",
+        "Main Action": "must be considered",
+        "Arguments": {
+          "Agent": "technical and economic limitations",
+          "Object": {
+            "Base Object": "",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "when designing projects to deploy AR technologies in the city.",
+          "Purpose": "",
+          "Method": "",
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  },
+  {
+    "paper_code": "BIOINFO_23_p_03",
+    "abstract": "Drug discovery practitioners in industry and academia use semantic tools to extract information from online scientific literature to generate new insights into targets, therapeutics and diseases. However, due to complexities in access and analysis, patent-based literature is often overlooked as a source of information. As drug discovery is a highly competitive field, naturally, tools that tap into patent literature can provide any actor in the field an advantage in terms of better informed decision-making. Hence, we aim to facilitate access to patent literature through the creation of an automatic tool for extracting information from patents described in existing public resources. Here, we present PEMT, a novel patent enrichment tool, that takes advantage of public databases like ChEMBL and SureChEMBL to extract relevant patent information linked to chemical structures and/or gene names described through FAIR principles and metadata annotations. PEMT aims at supporting drug discovery and research by establishing a patent landscape around genes of interest. The pharmaceutical focus of the tool is mainly due to the subselection of International Patent Classification codes, but in principle, it can be used for other patent fields, provided that a link between a concept and chemical structure is investigated. Finally, we demonstrate a use-case in rare diseases by generating a gene-patent list based on the epidemiological prevalence of these diseases and exploring their underlying patent landscapes.",
+    "events": [
+      {
+        "Background/Introduction": "Tools in the field of drug discovery",
+        "Text": "Drug discovery practitioners in industry and academia use semantic tools to extract information from online scientific literature to generate new insights into targets, therapeutics and diseases. However, due to complexities in access and analysis, patent-based literature is often overlooked as a source of information. As drug discovery is a highly competitive field, naturally, tools that tap into patent literature can provide any actor in the field an advantage in terms of better informed decision-making.",
+        "Main Action": "use",
+        "Arguments": {
+          "Agent": "Drug discovery practitioners",
+          "Object": {
+            "Base Object": "semantic tools",
+            "Base Modifier": "",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "in industry and academia",
+            "from online scientific literature",
+            "As drug discovery is a highly competitive field,"
+          ],
+          "Purpose": [
+            "to extract information",
+            "to generate new insights into targets, therapeutics and diseases."
+          ],
+          "Method": "",
+          "Results": "naturally, tools that tap into patent literature can provide any actor in the field an advantage in terms of better informed decision-making.",
+          "Analysis": "",
+          "Challenge": "However, due to complexities in access and analysis, patent-based literature is often overlooked as a source of information.",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Methods/Approach": "Presentation of a novel patent enrichment tool -  PEMT",
+        "Text": "Hence, we aim to facilitate access to patent literature through the creation of an automatic tool for extracting information from patents described in existing public resources. Here, we present PEMT, a novel patent enrichment tool, that takes advantage of public databases like ChEMBL and SureChEMBL to extract relevant patent information linked to chemical structures and/or gene names described through FAIR principles and metadata annotations. PEMT aims at supporting drug discovery and research by establishing a patent landscape around genes of interest. The pharmaceutical focus of the tool is mainly due to the subselection of International Patent Classification codes, but in principle, it can be used for other patent fields, provided that a link between a concept and chemical structure is investigated.",
+        "Main Action": "aim",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "to facilitate access",
+            "Base Modifier": "to patent literature",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": [
+            "in existing public resources.",
+            "provided that a link between a concept and chemical structure is investigated."
+          ],
+          "Purpose": [
+            "PEMT aims at supporting drug discovery and research",
+            "The pharmaceutical focus of the tool is mainly due to the subselection of International Patent Classification codes,"
+          ],
+          "Method": [
+            "through the creation of an automatic tool for extracting information from patents described",
+            "we present PEMT, a novel patent enrichment tool,",
+            "that takes advantage of public databases like ChEMBL and SureChEMBL to extract relevant patent information linked to chemical structures and/or gene names described through FAIR principles and metadata annotations.",
+            "by establishing a patent landscape around genes of interest."
+          ],
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "but in principle, it can be used for other patent fields,",
+          "Contradictions": ""
+        }
+      },
+      {
+        "Results/Findings": "Demonstration of a use case in rare diseases ",
+        "Text": "Finally, we demonstrate a use-case in rare diseases by generating a gene-patent list based on the epidemiological prevalence of these diseases and exploring their underlying patent landscapes.",
+        "Main Action": "demonstrate",
+        "Arguments": {
+          "Agent": "we",
+          "Object": {
+            "Base Object": "a use-case",
+            "Base Modifier": "in rare diseases",
+            "Attached Object": "",
+            "Attached Modifier": ""
+          },
+          "Context": "",
+          "Purpose": "",
+          "Method": [
+            "by generating a gene-patent list based on the epidemiological prevalence of these diseases",
+            "exploring their underlying patent landscapes."
+          ],
+          "Results": "",
+          "Analysis": "",
+          "Challenge": "",
+          "Ethical": "",
+          "Implications": "",
+          "Contradictions": ""
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,177 @@
+# data_pipeline.py
+from pathlib import Path
+from typing import Dict, List, Generator, Optional
+from pydantic import BaseModel, Field
+import json
+from dataclasses import dataclass
+import logging
+from tqdm import tqdm
+
+@dataclass
+class BatchConfig:
+    """Configuration for batch processing"""
+    batch_size: int = 2  # Default batch size
+    max_tokens_per_batch: int = 4000  # Token limit per batch
+    overlap: int = 0  # Token overlap between batches
+    
+class Event(BaseModel):
+    event_type: str
+    text: str
+    section_id: Optional[int] = None  # For tracking batch splits
+    
+class Paper(BaseModel):
+    paper_code: str
+    abstract: str
+    events: List[Event]
+
+class DataPipeline:
+    def __init__(self, batch_config: Optional[BatchConfig] = None):
+        self.papers = {}
+        self.annotated_papers = {}
+        self.batch_config = batch_config or BatchConfig()
+        self.logger = logging.getLogger(__name__)
+        
+    def _estimate_tokens(self, text: str) -> int:
+        """Rough token count estimation"""
+        return len(text.split())
+    
+    def create_batches(self, papers: List[Paper]) -> Generator[List[Event], None, None]:
+        """Create optimized batches of events"""
+        current_batch: List[Event] = []
+        current_tokens = 0
+        
+        # Flatten all events from all papers
+        all_events = []
+        for paper in papers:
+            all_events.extend([(paper.paper_code, event) for event in paper.events])
+            
+        for paper_code, event in all_events:
+            event_tokens = self._estimate_tokens(event.text)
+            
+            # If this event would exceed token limit, yield current batch
+            if current_tokens + event_tokens > self.batch_config.max_tokens_per_batch and current_batch:
+                yield current_batch
+                current_batch = []
+                current_tokens = 0
+            
+            # Add event to current batch
+            event_dict = event.dict()
+            event_dict['paper_code'] = paper_code  # Add paper tracking
+            current_batch.append(Event(**event_dict))
+            current_tokens += event_tokens
+            
+            # If batch size limit reached, yield batch
+            if len(current_batch) >= self.batch_config.batch_size:
+                yield current_batch
+                current_batch = []
+                current_tokens = 0
+        
+        # Yield any remaining events
+        if current_batch:
+            yield current_batch
+
+    def process_papers(self, papers: List[Paper], model_type: str = "api") -> Generator[List[Event], None, None]:
+        """Process papers based on model type"""
+        if model_type == "api":
+            # For API models, optimize for token usage
+            yield from self.create_batches(papers)
+        else:
+            # For small models, use simpler batching
+            for i in range(0, len(papers), self.batch_config.batch_size):
+                batch_papers = papers[i:i + self.batch_config.batch_size]
+                events = []
+                for paper in batch_papers:
+                    events.extend(paper.events)
+                yield events
+
+    def load_and_prepare(self, file_path: str, model_type: str = "api") -> Generator[List[Event], None, None]:
+        """Load file and prepare batches"""
+        try:
+            papers = self.load_papers(file_path)
+            yield from self.process_papers(papers, model_type)
+        except Exception as e:
+            self.logger.error(f"Error preparing data: {e}")
+            raise
+
+    def load_papers(self, file_path: str) -> List[Paper]:
+        """Load and validate papers"""
+        try:
+            data = self._load_json(file_path)
+            papers = data.get('papers', data)  # Handle both formats
+            
+            processed_papers = []
+            for paper in tqdm(papers, desc="Loading papers"):
+                processed = self._process_paper(paper)
+                processed_papers.append(processed)
+                
+            return processed_papers
+            
+        except Exception as e:
+            self.logger.error(f"Error loading papers: {e}")
+            raise
+
+    def _load_json(self, file_path: str) -> dict:
+        """Load and parse JSON file"""
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+
+    def _process_paper(self, paper: dict) -> Paper:
+        """Process single paper"""
+        events = []
+        for i, event in enumerate(paper['events']):
+            event_type = self._get_event_type(event)
+            events.append(Event(
+                event_type=event_type,
+                text=event['Text'],
+                section_id=i
+            ))
+        
+        return Paper(
+            paper_code=paper['paper_code'],
+            abstract=paper['abstract'],
+            events=events
+        )
+
+    def _get_event_type(self, event: dict) -> str:
+        """Extract event type"""
+        type_keys = [
+            'Background/Introduction',
+            'Methods/Approach',
+            'Results/Findings',
+            'Conclusions/Implications'
+        ]
+        
+        for key in type_keys:
+            if key in event:
+                return key
+        return "Unknown"
+
+# Example usage:
+def main():
+    # Configure batching based on model type
+    api_config = BatchConfig(
+        batch_size=5,
+        max_tokens_per_batch=4000
+    )
+    
+    small_model_config = BatchConfig(
+        batch_size=10,  # Larger batches for smaller models
+        max_tokens_per_batch=8000  # Less strict token limits
+    )
+    
+    # Initialize pipeline
+    pipeline = DataPipeline(batch_config=api_config)
+    
+    # Process with API model batching
+    for batch in pipeline.load_and_prepare('data/papers.json', model_type='api'):
+        print(f"API Batch size: {len(batch)}")
+        # Process batch...
+        
+    # Switch to small model batching
+    pipeline.batch_config = small_model_config
+    for batch in pipeline.load_and_prepare('data/papers.json', model_type='small'):
+        print(f"Small model batch size: {len(batch)}")
+        # Process batch...
+
+if __name__ == "__main__":
+    main()

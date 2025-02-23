@@ -13,19 +13,57 @@ A tool for automating the annotation of scientific abstracts using both API-base
 ## Project Structure
 
 ```
-project/
-├── src/
-│   ├── models/           # Model implementations
-│   │   ├── api/         # API-based models
-│   │   └── local/       # Open-source models
-│   ├── pipeline/        # Core pipeline components
-│   ├── evaluation/      # Evaluation metrics
-│   └── interface/       # Web interface
-├── data/
-│   ├── raw/            # Input abstracts
-│   └── annotated/      # Ground truth
-├── config/             # Configuration files
-└── tests/              # Test suite
+Scientific_Annotation/              # Root directory                        
+│
+├── src/                         
+│   ├── __init__.py
+│   │
+│   ├── pipeline/               
+│   │   ├── __init__.py
+│   │   ├── processor.py        # Data processing pipeline
+│   │   └── schema.py           # Data models
+│   │
+│   ├── models/                 
+│   │   ├── __init__.py
+│   │   ├── base.py            # Base model interface
+│   │   ├── api_models.py      # GPT/Claude implementations
+│   │   └── local_models.py    # Local model implementations
+│   │
+│   └── utils/                 
+│       ├── __init__.py
+│       └── helpers.py
+│
+├── langflow/                   # LangFlow specific code
+│   ├── __init__.py
+│   ├── components/            # Custom LangFlow components
+│   │   ├── __init__.py
+│   │   ├── data_loader.py    # Data loading component
+│   │   ├── batch_processor.py # Batch processing component
+│   │   ├── annotator.py      # Annotation component
+│   │   └── evaluator.py      # Evaluation component
+│   │
+│   ├── flows/                # Saved flow configurations
+│   │   └── default_flow.json
+│   │
+│   └── app.py               # LangFlow server setup
+│
+├── data/                    # Data files
+│   ├── raw/                # Input JSONs
+│   ├── processed/          # Processed data
+│   └── output/             # Results
+│
+├── tests/                  
+│   ├── __init__.py
+│   ├── test_pipeline.py
+│   └── test_components.py
+│
+├── configs/                
+│   ├── models.yaml
+│   └── pipeline.yaml
+│
+├── main.py                 # Main entry point to run LangFlow
+├── requirements.txt
+└── README.md
 ```
 
 ## Setup
